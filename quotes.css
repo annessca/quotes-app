@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+strong {
+	float: left;
+}
+
+.nav {
+	overflow: hidden;
+	background-color: black;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.navbutton{
+	margin-top: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    float: right;
+    width: 260px;
+    border: none;
+    cursor: pointer;
+    background-color: silver;
+	margin-right: 16px;
+	padding: 8px 10px;
+}
+
+.nav span strong {
+	font-size: 45px;
+	color: white;
+}
+
+.footerbutton {
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: silver;
+    position: fixed;
+    bottom: 30;
+    right: 28px;
+    width: 280px;
+}
+
+.container {
+	border: 1px solid #444;
+	box-shadow: 20px 0 #ccc, -20px 0 #ccc;
+	font-family: Arial;
+	width: 100%; 
+	height:500px;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: gray;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  border: 3px solid #ddd;
+  z-index: 9;
+}
+
+.form-container textarea:focus {
+
+}
+
+.form-container input[type=text]:focus, .form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container textarea {
+	width: 22em;
+	height: 8em;
+}
+
+.form-container .btn {
+    background-color: silver;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+.form-container input[type=text] {
+  min-width: 20em;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+#imageSlider-image {
+	width: 100%;
+	height: 100%;
+}
+
+.content {
+	position: absolute;
+	width: 100%;
+	height: 464px;
+	top: 60.5px;
+	background: rgba(0, 0, 0, 0.5);
+	font-family: 'Sofia';
+	color: white;
+	font-weight: bold;
+	font-size: 35px;
+	padding: 20px;
+}
+
+footer {
+	background-color: black;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom:50px;
+	font-size: 35px;
+}
