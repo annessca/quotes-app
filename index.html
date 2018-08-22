@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quotes App</title>
+	<link href="quotes.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<script src="quotes.js" type="text/javascript"></script>
+</head>
+<body onLoad="start()">
+	<section class=hero>
+		<nav class="nav">
+			<span><strong>Quotes' App</strong></span>
+			<button class="navbutton" id="chooseQuote" onclick="random()">Toggle Quotes</button>
+		</nav>
+		<div id="imagecontainer" class="container">
+		    <img id='imageSlider-image' src=''/>
+		    <div class="content">
+	             <q class="centered" id="quoteline" ></q>
+	            <p class="bottom-right" id="authorname"></p>
+	        </div>
+	        <button class="footerbutton" onclick="openForm()">Add Quotes</button>
+	        <div class="form-popup" id="myForm">
+                <form class="form-container">
+                    <h1>Quotes Form</h1>
+
+                    <label for="email"><var>Quote</var></label>
+                    <textarea placeholder="Write a quote" id="saying" name="quote" required autofocus></textarea>
+
+                    <label for="psw"><var>Author/Source</var></label>
+                    <input type="text" placeholder="Write Source or name of Author" name="author" id="by" required>
+
+                    <button type="submit" class="btn" onclick="addQuotes()">Add</button>
+                    <button type="submit" class="btn" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+	    </div>
+	</section>
+
+	<footer></footer>
+</body>
+</html>
