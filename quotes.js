@@ -3,7 +3,7 @@ function qObj(_myQuotes, _quotesAuthor){
 	this.quotesAuthor = _quotesAuthor;
 }
 
-let imageGallery = new Array("images/twilight.jpg", "images/leightonmeester.jpg", "images/JessAlba.jpg", "images/teri hatcher.jpg", "images/payton.jpg", "images/BlakeLively.jpg", "images/burton.jpg", "images/rare.jpg", "images/Russia.jpg", "images/miley-cyrus.jpg", "images/BRITNEY-SPEAR.jpg", "images/lucy.jpg", "images/kendall.jpg", "images/Christina.jpg", "images/JenniferAniston.jpg", "images/kylie.jpg", "images/ariana.jpg", "images/cassiescerbo.jpg", "images/momsen.jpg", "images/kknightly.jpg", "images/annehathaway.jpg", "images/maxresdefault.jpg", "images/maxresdefaults.jpg", "images/riri.jpg", "images/Alicia-Keys.jpg", "images/Angelina Jolie.jpg", "images/scarlett.jpg", "images/selena.jpg", "images/ugoo.jpg");
+let imageGallery = new Array("twilight.jpg", "leightonmeester.jpg", "JessAlba.jpg", "teri hatcher.jpg", "payton.jpg", "BlakeLively.jpg", "burton.jpg", "rare.jpg", "Russia.jpg", "miley-cyrus.jpg", "BRITNEY-SPEAR.jpg", "lucy.jpg", "kendall.jpg", "Christina.jpg", "JenniferAniston.jpg", "kylie.jpg", "ariana.jpg", "cassiescerbo.jpg", "momsen.jpg", "kknightly.jpg", "annehathaway.jpg", "images/maxresdefault.jpg", "maxresdefaults.jpg", "riri.jpg", "Alicia-Keys.jpg", "Angelina Jolie.jpg", "scarlett.jpg", "selena.jpg", "ugoo.jpg");
 let quotesMap = new Array();
 let imageCounter = 0;
 let qCounter = 0;
